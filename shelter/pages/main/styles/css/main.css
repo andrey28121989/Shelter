@@ -161,7 +161,7 @@ p {
 
 .menu__link:hover {
   color: #FAFAFA;
-  transition: all 0.4s;
+  transition: all 0.1s;
   border-bottom: 3px solid #F1CDB3;
 }
 
@@ -243,7 +243,7 @@ p {
   margin: 14px 175px 14px 0;
 }
 
-h3 {
+.about__info h3 {
   margin-right: 60px;
   font-family: "Georgia";
   font-style: normal;
@@ -262,4 +262,29 @@ h3 {
   font-size: 15px;
   line-height: 160%;
   color: #4C4C4C;
+}
+
+.container_pets {
+  max-width: 1280px;
+  padding: 80px 40px 100px;
+  margin: 0 auto;
+  background: #F6F6F6;
+}
+
+.pets__title h3 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #545454;
+}
+
+.pets__cards_container {
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
