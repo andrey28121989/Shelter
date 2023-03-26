@@ -25,8 +25,34 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 90px;
+  // gap: 90px;
 }
+
+.pets__button_left {
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  background: url(/assets/icons/arrow.svg) 50% no-repeat;
+
+  padding: 23px;
+}
+
+.pets__button_left:hover {
+  background-color: #FDDCC4;
+}
+
+.pets__button_rigth {
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  background: url(/assets/icons/arrow.svg) 50% no-repeat;
+  transform: rotate(180deg);
+
+  padding: 23px;
+}
+
+.pets__button_rigth:hover {
+  background-color: #FDDCC4;
+}
+
 
 .pets__cards_item {
   width: 270px;
