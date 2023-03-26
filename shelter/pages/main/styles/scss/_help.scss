@@ -1,0 +1,48 @@
+.container_help {
+  max-width: 1280px;
+  padding: 80px 40px 100px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+.help__title h3 {
+  // margin-bottom: 60px;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #545454;
+}
+
+.help__shelter {
+  margin: 60px auto 0 auto;
+
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  column-gap: 120px;
+  row-gap: 50px;
+}
+
+.help__icons{
+  text-align: center;
+}
+
+.help__icons_text h4 {
+  margin: 30px auto 0 auto;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+
+  color: #545454;
+}
