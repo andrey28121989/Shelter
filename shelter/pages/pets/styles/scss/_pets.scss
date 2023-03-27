@@ -1,6 +1,6 @@
 .container_pets {
   max-width: 1280px;
-  padding: 80px 40px 100px;
+  padding: 200px 40px 100px;
   margin: 0 auto;
   background: #F6F6F6;
 }
@@ -25,39 +25,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // gap: 90px;
+  flex-wrap: wrap;
+  row-gap: 30px;
 }
-
-.pets__button_left {
-  border: 2px solid #F1CDB3;
-  border-radius: 100px;
-  background: url('../../../../assets/icons/arrow.svg') 50% no-repeat;
-
-  padding: 23px;
-}
-
-.pets__button_left:hover {
-  background-color: #FDDCC4;
-}
-
-.pets__button_rigth {
-  border: 2px solid #F1CDB3;
-  border-radius: 100px;
-  background: url('../../../../assets/icons/arrow.svg') 50% no-repeat;
-  transform: rotate(180deg);
-
-  padding: 23px;
-}
-
-.pets__button_rigth:hover {
-  background-color: #FDDCC4;
-}
-
 
 .pets__cards_item {
   width: 270px;
   height: 435px;
-  gap: 90px;
 
   background: #FAFAFA;
   border-radius: 9px;
@@ -106,26 +80,73 @@
   background: #FDDCC4;
 }
 
-.cards__button a {
-  width: 261px;
-  height: 52px;
+.cards__button {
+  display: flex;
+	justify-content: center;
 
-  background: #F1CDB3;
-  border-radius: 100px;
-  padding: 15px 45px;
-  margin-left: 470px;
-
-  font-family: 'Georgia';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 130%;
-  letter-spacing: 0.06em;
-
-  color: #292929;
   transition: all .4s;
 }
 
-.cards__button a:hover {
+.pets__button_min {
+  border: 2px solid #CDCDCD;;
+  border-radius: 100px;
+
+  width: 52px;
+	height: 52px;
+  margin: 0 20px;
+}
+
+.pets__button_min:hover {
   background: #FDDCC4;
 }
+
+.pets__button_left {
+  border: 2px solid #CDCDCD;;
+  border-radius: 100px;
+
+  width: 52px;
+	height: 52px;
+}
+
+.pets__button_left:hover {
+  background: #F1CDB3
+}
+
+.pets__button_center {
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  
+  width: 52px;
+	height: 52px;
+  margin: 0 20px;
+}
+
+.pets__button_center:hover {
+  background: #F1CDB3;
+}
+
+.pets__button_rigth {
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+
+  width: 52px;
+	height: 52px;
+}
+
+.pets__button_rigth:hover {
+  background: #F1CDB3;
+}
+
+.pets__button_max {
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+
+  width: 52px;
+	height: 52px;
+  margin: 0 20px;
+}
+
+.pets__button_max:hover {
+  background: #F1CDB3;
+}
+
