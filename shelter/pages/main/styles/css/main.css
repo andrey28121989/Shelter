@@ -169,7 +169,7 @@ p {
   max-width: 1280px;
   padding: 180px 40px 0;
   margin: 0 auto;
-  background: url(assets/fonts/start-screen-gradient-background.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+  background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 }
 
 .start__inner {
@@ -292,7 +292,7 @@ p {
 .pets__button_left {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
-  background: url(/assets/icons/arrow.svg) 50% no-repeat;
+  background: url("../../../../assets/icons/arrow.svg") 50% no-repeat;
   padding: 23px;
 }
 
@@ -303,7 +303,7 @@ p {
 .pets__button_rigth {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
-  background: url(/assets/icons/arrow.svg) 50% no-repeat;
+  background: url("../../../../assets/icons/arrow.svg") 50% no-repeat;
   transform: rotate(180deg);
   padding: 23px;
 }
