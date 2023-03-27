@@ -548,10 +548,18 @@ p {
   column-gap: 20px;
 }
 
+.contacts_email a:hover {
+  color: #FFFFFF;
+}
+
 .contacts_phone {
   display: flex;
   align-items: center;
   column-gap: 20px;
+}
+
+.contacts_phone a:hover {
+  color: #FFFFFF;
 }
 
 .locations_address {
@@ -565,6 +573,6 @@ p {
   width: 259px;
 }
 
-a:hover {
+.locations_address a:hover {
   color: #FFFFFF;
 }
