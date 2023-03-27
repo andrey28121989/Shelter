@@ -42,10 +42,28 @@
 }
 
 .donation__card {
+  width: 349px;
   margin-bottom: 20px;
+  padding: 10px 15px;
 
+  background: #F1CDB3;
+  border-radius: 9px;
+}
+.donation__card:hover {
+  background-color: #FDDCC4;
+  cursor: pointer;
+}
 
+.donation__card a {
+  margin-left: 10px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
 
+  color: #545454;
 }
 
 .donation__content p {
@@ -56,4 +74,5 @@
   line-height: 18px;
 
   color: #B2B2B2;
+  text-shadow: none;
 }
