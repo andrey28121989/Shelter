@@ -97,7 +97,7 @@
   letter-spacing: 0.06em;
 
   color: #292929;
-  transition: all .4s;
+  transition: all .5s;
   cursor: pointer;
 }
 
@@ -108,6 +108,7 @@
 
 .pets__cards_item:hover :nth-child(3){
   background: #FDDCC4;
+  transition: all .5s;
 }
 
 .cards__button a {
@@ -127,9 +128,10 @@
   letter-spacing: 0.06em;
 
   color: #292929;
-  transition: all .4s;
+  transition: all .5s;
 }
 
 .cards__button a:hover {
   background: #FDDCC4;
+  transition: all .5s;
 }

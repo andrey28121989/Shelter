@@ -228,23 +228,25 @@ p {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
-  transition: all 0.4s;
+  transition: all 0.5s;
   cursor: pointer;
 }
 
 .pets__cards_item:hover {
   cursor: pointer;
   box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+  transition: all 0.5s;
 }
 
 .pets__cards_item:hover :nth-child(3) {
   background: #FDDCC4;
+  transition: all 0.5s;
 }
 
 .cards__button {
   display: flex;
   justify-content: center;
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .pets__button_min {
@@ -255,19 +257,11 @@ p {
   margin: 0 20px;
 }
 
-.pets__button_min:hover {
-  background: #FDDCC4;
-}
-
 .pets__button_left {
   border: 2px solid #CDCDCD;
   border-radius: 100px;
   width: 52px;
   height: 52px;
-}
-
-.pets__button_left:hover {
-  background: #F1CDB3;
 }
 
 .pets__button_center {
@@ -280,22 +274,26 @@ p {
 
 .pets__button_center:hover {
   background: #F1CDB3;
+  transition: all 0.5s;
 }
 
 .pets__button_rigth {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  transform: rotate(180deg);
   width: 52px;
   height: 52px;
 }
 
 .pets__button_rigth:hover {
   background: #F1CDB3;
+  transition: all 0.5s;
 }
 
 .pets__button_max {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  transform: rotate(180deg);
   width: 52px;
   height: 52px;
   margin: 0 20px;
@@ -303,6 +301,7 @@ p {
 
 .pets__button_max:hover {
   background: #F1CDB3;
+  transition: all 0.5s;
 }
 
 .container_footer {
@@ -359,6 +358,7 @@ p {
 
 .contacts_email a:hover {
   color: #FFFFFF;
+  transition: all 0.5s;
 }
 
 .contacts_phone {
@@ -369,6 +369,7 @@ p {
 
 .contacts_phone a:hover {
   color: #FFFFFF;
+  transition: all 0.5s;
 }
 
 .locations_address {
@@ -384,4 +385,5 @@ p {
 
 .locations_address a:hover {
   color: #FFFFFF;
+  transition: all 0.5s;
 }

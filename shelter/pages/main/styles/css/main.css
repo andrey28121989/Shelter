@@ -358,7 +358,7 @@ p {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
-  transition: all 0.4s;
+  transition: all 0.5s;
   cursor: pointer;
 }
 
@@ -369,6 +369,7 @@ p {
 
 .pets__cards_item:hover :nth-child(3) {
   background: #FDDCC4;
+  transition: all 0.5s;
 }
 
 .cards__button a {
@@ -385,11 +386,12 @@ p {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .cards__button a:hover {
   background: #FDDCC4;
+  transition: all 0.5s;
 }
 
 .container_help {
@@ -561,6 +563,7 @@ p {
 
 .contacts_email a:hover {
   color: #FFFFFF;
+  transition: all 0.4s;
 }
 
 .contacts_phone {
@@ -571,6 +574,7 @@ p {
 
 .contacts_phone a:hover {
   color: #FFFFFF;
+  transition: all 0.4s;
 }
 
 .locations_address {
@@ -586,4 +590,5 @@ p {
 
 .locations_address a:hover {
   color: #FFFFFF;
+  transition: all 0.4s;
 }
