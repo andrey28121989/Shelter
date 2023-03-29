@@ -1,8 +1,11 @@
+.donation {
+  background: #F6F6F6;
+}
+
 .container_donation {
   max-width: 1280px;
   padding: 80px 182px 100px;
   margin: 0 auto;
-  background: #F6F6F6;
 }
 
 .donation__wrapper {
@@ -52,6 +55,7 @@
 .donation__card:hover {
   background-color: #FDDCC4;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .donation__card a {

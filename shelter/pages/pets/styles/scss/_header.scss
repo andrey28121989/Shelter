@@ -1,8 +1,11 @@
+.header {
+  background: #FFFFFF;
+}
+
 .container_header {
   max-width: 1280px;
   padding: 30px 40px;
   margin: 0 auto;
-  background: #FFFFFF;;
 }
 
 .header {
@@ -78,6 +81,7 @@
 
   color: #292929;
   border-bottom: 3px solid #F1CDB3;
+  cursor: default;
 }
 
 .menu__link:hover {

@@ -87,11 +87,14 @@ p {
   overflow-wrap: break-word;
 }
 
+.header {
+  background: #FFFFFF;
+}
+
 .container_header {
   max-width: 1280px;
   padding: 30px 40px;
   margin: 0 auto;
-  background: #FFFFFF;
 }
 
 .header {
@@ -160,6 +163,7 @@ p {
   line-height: 160%;
   color: #292929;
   border-bottom: 3px solid #F1CDB3;
+  cursor: default;
 }
 
 .menu__link:hover {
@@ -168,11 +172,14 @@ p {
   border-bottom: 3px solid #F1CDB3;
 }
 
+.pets {
+  background: #F6F6F6;
+}
+
 .container_pets {
   max-width: 1280px;
   padding: 200px 40px 100px;
   margin: 0 auto;
-  background: #F6F6F6;
 }
 
 .pets__title h3 {
@@ -304,11 +311,14 @@ p {
   transition: all 0.5s;
 }
 
+.footer {
+  background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+
 .container_footer {
   max-width: 1280px;
   padding: 40px 40px 0;
   margin: 0 auto;
-  background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
 
 .footer__wrapper {

@@ -1,8 +1,11 @@
+.pets {
+  background: #F6F6F6;
+}
+
 .container_pets {
   max-width: 1280px;
   padding: 80px 40px 117px;
   margin: 0 auto;
-  background: #F6F6F6;
 }
 
 .pets__title h3 {
@@ -42,6 +45,7 @@
 
 .pets__button_left:hover {
   background-color: #FDDCC4;
+  transition: 0.5s;
 }
 
 .pets__button_rigth {
@@ -55,6 +59,7 @@
 
 .pets__button_rigth:hover {
   background-color: #FDDCC4;
+  transition: 0.5s;
 }
 
 

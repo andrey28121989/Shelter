@@ -87,11 +87,14 @@ p {
   overflow-wrap: break-word;
 }
 
+.header {
+  background: transparent;
+}
+
 .container_header {
   max-width: 1280px;
   padding: 60px 40px;
   margin: 0 auto;
-  background: transparent;
 }
 
 .header {
@@ -164,6 +167,7 @@ p {
   line-height: 160%;
   color: #FAFAFA;
   border-bottom: 3px solid #F1CDB3;
+  cursor: default;
 }
 
 .menu__link:hover {
@@ -172,11 +176,14 @@ p {
   border-bottom: 3px solid #F1CDB3;
 }
 
+.start__screen {
+  background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
 .container_start {
   max-width: 1280px;
   padding: 180px 40px 0;
   margin: 0 auto;
-  background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 }
 
 .start__inner {
@@ -231,11 +238,14 @@ p {
   margin-left: 42px;
 }
 
+.about {
+  background: #FFFFFF;
+}
+
 .container_about {
   max-width: 1280px;
   padding: 80px 40px 74px;
   margin: 0 auto;
-  background: #FFFFFF;
 }
 
 .about__wrapper {
@@ -271,11 +281,14 @@ p {
   color: #4C4C4C;
 }
 
+.pets {
+  background: #F6F6F6;
+}
+
 .container_pets {
   max-width: 1280px;
   padding: 80px 40px 117px;
   margin: 0 auto;
-  background: #F6F6F6;
 }
 
 .pets__title h3 {
@@ -310,6 +323,7 @@ p {
 
 .pets__button_left:hover {
   background-color: #FDDCC4;
+  transition: 0.5s;
 }
 
 .pets__button_rigth {
@@ -322,6 +336,7 @@ p {
 
 .pets__button_rigth:hover {
   background-color: #FDDCC4;
+  transition: 0.5s;
 }
 
 .pets__cards_item {
@@ -394,11 +409,14 @@ p {
   transition: all 0.5s;
 }
 
+.help {
+  background: #FFFFFF;
+}
+
 .container_help {
   max-width: 1280px;
   padding: 80px 40px 100px;
   margin: 0 auto;
-  background: #FFFFFF;
 }
 
 .help__title h3 {
@@ -436,11 +454,14 @@ p {
   color: #545454;
 }
 
+.donation {
+  background: #F6F6F6;
+}
+
 .container_donation {
   max-width: 1280px;
   padding: 80px 182px 100px;
   margin: 0 auto;
-  background: #F6F6F6;
 }
 
 .donation__wrapper {
@@ -486,6 +507,7 @@ p {
 .donation__card:hover {
   background-color: #FDDCC4;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .donation__card a {
@@ -509,11 +531,14 @@ p {
   text-shadow: none;
 }
 
+.footer {
+  background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+
 .container_footer {
   max-width: 1280px;
   padding: 40px 40px 0;
   margin: 0 auto;
-  background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
 
 .footer__wrapper {
