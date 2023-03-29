@@ -169,7 +169,6 @@ p {
 .menu__link:hover {
   color: #292929;
   transition: all 0.1s;
-  border-bottom: 3px solid #F1CDB3;
 }
 
 .pets {

@@ -173,7 +173,6 @@ p {
 .menu__link:hover {
   color: #FAFAFA;
   transition: all 0.1s;
-  border-bottom: 3px solid #F1CDB3;
 }
 
 .start__screen {
