@@ -441,6 +441,12 @@ p {
 
 .help__icons {
   text-align: center;
+  cursor: pointer;
+}
+
+.help__icons:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
 }
 
 .help__icons_text h4 {
