@@ -256,8 +256,13 @@ p {
   transition: all 0.5s;
 }
 
-.pets__button_min {
+button:disabled, button[disabled] {
   border: 2px solid #CDCDCD;
+  cursor: default;
+}
+
+.pets__button_min {
+  border: 2px solid #F1CDB3;
   border-radius: 100px;
   width: 52px;
   height: 52px;
