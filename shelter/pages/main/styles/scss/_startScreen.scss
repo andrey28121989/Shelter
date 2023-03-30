@@ -62,3 +62,32 @@ p {
 .start__img {
   margin-left: 42px;
 }
+
+          // for tablet
+
+@media screen and (max-width: 1279px) {
+  .container_start {
+    padding: 150px 100px 0;
+  }
+
+  .start__inner {
+    flex-direction: column;
+  }
+
+  .start__left {
+    margin: 0px 55px 100px;
+  }
+
+  .heading {
+    margin: 0 150px 0 0;
+  }
+
+  .button__primary {
+    margin-left: 126px;
+  }
+
+  .start__img {
+    width: 100%;
+    margin-left: 70px;
+  }
+}
