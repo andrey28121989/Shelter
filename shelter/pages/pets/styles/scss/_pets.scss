@@ -125,6 +125,7 @@ button:disabled,button[disabled] {
 .pets__button_center {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  background: #F1CDB3;
   
   width: 52px;
 	height: 52px;
@@ -132,7 +133,6 @@ button:disabled,button[disabled] {
 }
 
 .pets__button_center:hover {
-  background: #F1CDB3;
   transition: all .5s;
 }
 
@@ -165,3 +165,25 @@ button:disabled,button[disabled] {
   transition: all .5s;
 }
 
+          // for tablet
+
+@media screen and (max-width: 1279px) {
+  .container_pets {
+    padding: 200px 30px 76px;
+  }
+
+  .pets__cards_container {
+    margin: 30px 0 40px;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+
+  .seven {
+    display: none;
+  }
+
+  .eight {
+    display: none;
+  }
+}

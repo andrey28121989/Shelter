@@ -175,6 +175,9 @@ p {
   .container_header {
     padding: 30px 30px;
   }
+  .menu__link {
+    margin-left: 37px;
+  }
 }
 .pets {
   background: #F6F6F6;
@@ -283,13 +286,13 @@ button:disabled, button[disabled] {
 .pets__button_center {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  background: #F1CDB3;
   width: 52px;
   height: 52px;
   margin: 0 20px;
 }
 
 .pets__button_center:hover {
-  background: #F1CDB3;
   transition: all 0.5s;
 }
 
@@ -320,6 +323,23 @@ button:disabled, button[disabled] {
   transition: all 0.5s;
 }
 
+@media screen and (max-width: 1279px) {
+  .container_pets {
+    padding: 200px 30px 76px;
+  }
+  .pets__cards_container {
+    margin: 30px 0 40px;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+  .seven {
+    display: none;
+  }
+  .eight {
+    display: none;
+  }
+}
 .footer {
   background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
@@ -405,4 +425,27 @@ button:disabled, button[disabled] {
 .locations_address a:hover {
   color: #FFFFFF;
   transition: all 0.5s;
+}
+
+@media screen and (max-width: 1279px) {
+  .container_footer {
+    max-width: 768px;
+    padding: 30px 64px 0;
+  }
+  .footer__wrapper {
+    justify-content: center;
+    column-gap: 60px;
+    row-gap: 32px;
+  }
+  .footer__contacts h3 {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .contacts_email {
+    margin-bottom: 41px;
+  }
+  .footer__locations h3 {
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
 }
