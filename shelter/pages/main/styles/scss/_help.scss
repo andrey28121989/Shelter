@@ -55,3 +55,15 @@
 
   color: #545454;
 }
+
+@media screen and (max-width: 1279px) {
+  .help__shelter {
+    column-gap: 60px;
+  }
+
+  .help__icons {
+    width: 170px;
+    height: 113px;
+  }
+
+}

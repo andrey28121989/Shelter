@@ -250,7 +250,7 @@ p {
     flex-direction: column;
   }
   .start__left {
-    margin: 0px 55px 100px;
+    margin: 0px 55px 115px;
   }
   .heading {
     margin: 0 150px 0 0;
@@ -452,6 +452,20 @@ p {
   transition: all 0.5s;
 }
 
+@media screen and (max-width: 1279px) {
+  .container_pets {
+    padding: 80px 30px 117px;
+  }
+  .three {
+    display: none;
+  }
+  .two {
+    margin: 0 0 0 28px;
+  }
+  .cards__button a {
+    margin-left: 224px;
+  }
+}
 .help {
   background: #FFFFFF;
 }
@@ -503,6 +517,15 @@ p {
   color: #545454;
 }
 
+@media screen and (max-width: 1279px) {
+  .help__shelter {
+    column-gap: 60px;
+  }
+  .help__icons {
+    width: 170px;
+    height: 113px;
+  }
+}
 .donation {
   background: #F6F6F6;
 }
@@ -580,6 +603,15 @@ p {
   text-shadow: none;
 }
 
+@media screen and (max-width: 1279px) {
+  .container_donation {
+    padding: 80px 194px 100px;
+  }
+  .donation__wrapper {
+    flex-direction: column-reverse;
+    row-gap: 60px;
+  }
+}
 .footer {
   background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
@@ -665,4 +697,27 @@ p {
 .locations_address a:hover {
   color: #FFFFFF;
   transition: all 0.4s;
+}
+
+@media screen and (max-width: 1279px) {
+  .container_footer {
+    max-width: 768px;
+    padding: 30px 64px 0;
+  }
+  .footer__wrapper {
+    justify-content: center;
+    column-gap: 60px;
+    row-gap: 32px;
+  }
+  .footer__contacts h3 {
+    margin: 0 auto;
+    margin-bottom: 43px;
+  }
+  .contacts_email {
+    margin-bottom: 43px;
+  }
+  .footer__locations h3 {
+    margin: 0 auto;
+    margin-bottom: 43px;
+  }
 }
