@@ -140,3 +140,21 @@
   background: #FDDCC4;
   transition: all .5s;
 }
+
+@media screen and (max-width: 1279px) {
+  .container_pets {
+    padding: 80px 30px 117px;
+  }
+
+  .three {
+    display: none;
+  }
+
+  .two {
+    margin: 0 0 0 28px;
+  }
+
+  .cards__button a {
+    margin-left: 224px;
+  }
+}

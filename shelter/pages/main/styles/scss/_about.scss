@@ -42,3 +42,28 @@
   line-height: 160%;
   color: #4C4C4C;
 }
+
+          // for tablet
+
+@media screen and (max-width: 1279px) {
+  .container_about {
+    padding: 80px 166px 100px 165px;
+  }
+
+  .about__wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .about__info {
+    margin: 0 3px 0 4px;
+  }
+
+  .about__info h3 {
+    margin-right: 90px;
+  }
+
+  .about__img {
+    width: 68.7%;
+    margin: 55px 68px 0 69px;
+  }
+}

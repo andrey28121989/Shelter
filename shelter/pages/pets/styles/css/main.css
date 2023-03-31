@@ -171,6 +171,11 @@ p {
   transition: all 0.1s;
 }
 
+@media screen and (max-width: 1279px) {
+  .container_header {
+    padding: 30px 30px;
+  }
+}
 .pets {
   background: #F6F6F6;
 }

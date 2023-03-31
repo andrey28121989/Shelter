@@ -81,3 +81,20 @@
   color: #B2B2B2;
   text-shadow: none;
 }
+
+@media screen and (max-width: 1279px) {
+  .container_donation{
+    padding: 80px 194px 100px;
+  }
+
+  .donation__wrapper{
+    flex-direction: column-reverse;
+    row-gap: 60px;
+  }
+
+  .donation__img {
+    margin: 0;
+  }
+
+
+}
