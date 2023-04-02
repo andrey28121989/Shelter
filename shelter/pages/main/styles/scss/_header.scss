@@ -52,6 +52,10 @@
   letter-spacing: 0.095em;
 }
 
+.burger {
+  display: none;
+}
+
 .menu__list {
   display: flex;
 }
@@ -89,7 +93,6 @@
 .menu__link:hover {
   color: #FAFAFA;
   transition: all 0.5s;
-  // border-bottom: 3px solid #F1CDB3;
 }
 
           // for tablet
@@ -98,4 +101,41 @@
   .container_header {
     padding: 30px 30px;
   }
+}
+
+          // for mobile
+
+@media screen and (max-width: 767px) {
+  .container_header {
+    padding: 30px 20px;
+  }
+
+  .burger {
+    display: block;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  
+  .burger .line {
+    border-top: 2px solid #F1CDB3;
+    width: 30px; 
+    margin-bottom: 9px;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    right: -50%;
+  }
+  .menu .menu__list {
+    flex-direction: column;
+  }
+
+  .logo__title h1 {
+    width: 186px;
+    height: 35px;
+    letter-spacing: 0.06em;
+  }
+  
 }
