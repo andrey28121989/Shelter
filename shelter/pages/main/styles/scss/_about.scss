@@ -67,3 +67,32 @@
     margin: 55px 68px 0 69px;
   }
 }
+
+          // for mobile
+
+@media screen and (max-width: 767px) {
+  .container_about {
+    padding: 42px 10px;
+  }
+
+  .about__info {
+    margin: 0 auto;
+  }
+
+  .about__info h3 {
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    width: 260px;
+  }
+
+  .about__info p {
+    margin: 25px 15px 22px;
+    text-align: justify;
+  }
+
+  .about__img {
+    width: 86.6%;
+    margin: 20px 20px 0;
+  }
+}

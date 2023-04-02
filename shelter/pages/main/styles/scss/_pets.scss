@@ -160,3 +160,43 @@
     margin-left: 224px;
   }
 }
+
+          // for mobile
+
+@media screen and (max-width: 767px) {
+  .container_pets {
+    padding: 57px 10px;
+  }
+
+  .pets__title h3 {
+    font-size: 25px;
+  }
+
+  .pets__cards_container {
+    margin: 42px 15px 57px;
+    width: 270px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .pets__cards_item {
+    order: -1;
+  }
+
+  .pets__button_left {
+    margin: 0 auto;
+  }
+
+  .pets__button_rigth {
+    margin: 0 auto;
+  }
+
+  .two {
+    display: none;
+  }
+
+  .cards__button a {
+    margin: 0 auto;
+    margin-left: 20px;
+  }
+}

@@ -70,3 +70,38 @@
   }
 
 }
+
+          // for mobile
+
+@media screen and (max-width: 767px) {
+  .container_help {
+    padding: 42px 0 0;
+  }
+
+  .help__title h3 {
+    font-size: 25px;
+  }
+  
+  .help__shelter {
+    margin: 42px auto 12px auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 0px;
+    row-gap: 0px;
+  }
+
+  .help__icons {
+    width: 130px;
+    height: 87px;
+    margin: 0 15px 30px 15px;
+  }
+
+  .help__icons_text h4 {
+    margin: 20px auto 0 auto;
+    font-size: 15px;
+  }
+
+  .help__icons_img img {
+    width: 39%;
+  }
+}
