@@ -187,3 +187,51 @@ button:disabled,button[disabled] {
     display: none;
   }
 }
+
+          // for mobile
+
+@media screen and (max-width: 767px) {
+  .four {
+    display: none;
+  }
+
+  .five{
+    display: none;
+  }
+
+  .six {
+    display: none;
+  }
+
+  .container_pets {
+    padding: 162px 10px 42px;
+  }
+
+  .pets__title h3 {
+    font-size: 25px;
+    margin-bottom: 42px;
+  }
+
+  .pets__button_min {
+    margin: 0;
+  }
+
+  .pets__button_left {
+    margin: 0 auto;
+  }
+
+  .pets__button_center {
+    margin: 0 auto;
+  }
+
+  .pets__button_rigth {
+    margin: 0 auto;
+  }
+
+  .pets__button_max {
+    margin: 0;
+  }
+
+
+
+}

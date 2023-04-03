@@ -896,6 +896,7 @@ p {
     row-gap: 32px;
   }
   .footer__contacts h3 {
+    width: 279px;
     margin: 0 auto;
     margin-bottom: 40px;
   }
@@ -903,6 +904,7 @@ p {
     margin-bottom: 41px;
   }
   .footer__locations h3 {
+    width: 301px;
     margin: 0 auto;
     margin-bottom: 32px;
   }

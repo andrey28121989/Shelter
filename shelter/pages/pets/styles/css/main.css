@@ -179,6 +179,33 @@ p {
     margin-left: 37px;
   }
 }
+@media screen and (max-width: 767px) {
+  .container_header {
+    padding: 30px 20px;
+  }
+  .burger {
+    display: block;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  .burger .line {
+    border-top: 2px solid #000000;
+    width: 30px;
+    margin-bottom: 9px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu .menu__list {
+    flex-direction: column;
+  }
+  .logo__title h1 {
+    width: 186px;
+    height: 35px;
+    letter-spacing: 0.06em;
+  }
+}
 .pets {
   background: #F6F6F6;
 }
@@ -340,6 +367,39 @@ button:disabled, button[disabled] {
     display: none;
   }
 }
+@media screen and (max-width: 767px) {
+  .four {
+    display: none;
+  }
+  .five {
+    display: none;
+  }
+  .six {
+    display: none;
+  }
+  .container_pets {
+    padding: 162px 10px 42px;
+  }
+  .pets__title h3 {
+    font-size: 25px;
+    margin-bottom: 42px;
+  }
+  .pets__button_min {
+    margin: 0;
+  }
+  .pets__button_left {
+    margin: 0 auto;
+  }
+  .pets__button_center {
+    margin: 0 auto;
+  }
+  .pets__button_rigth {
+    margin: 0 auto;
+  }
+  .pets__button_max {
+    margin: 0;
+  }
+}
 .footer {
   background: url("../../../../assets/fonts/noise_transparent.png"), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
@@ -447,5 +507,36 @@ button:disabled, button[disabled] {
   .footer__locations h3 {
     margin: 0 auto;
     margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container_footer {
+    padding: 30px 10px 0;
+  }
+  .footer__wrapper {
+    row-gap: 1px;
+  }
+  .footer__wrapper h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .footer__contacts {
+    margin: 0 11px 40px;
+  }
+  .contacts_email {
+    margin-bottom: 41px;
+    margin-left: 13px;
+  }
+  .contacts_phone {
+    margin-left: 18px;
+  }
+  .footer__locations h3 {
+    margin: 0 15px 38px;
+  }
+  .locations_address {
+    margin-bottom: 40px;
+  }
+  .footer_img {
+    width: 86.7%;
   }
 }
