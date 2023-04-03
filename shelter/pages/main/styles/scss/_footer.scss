@@ -116,3 +116,48 @@
   }
 }
 
+          // for mobile
+
+@media screen and (max-width: 767px) {
+  .container_footer {
+    padding: 30px 10px 0;
+  }
+
+  .footer__wrapper {
+    row-gap: 1px;
+  }
+
+  .footer__wrapper h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  // br {
+  //   display: none;
+  // }
+
+  .footer__contacts {
+    margin: 0 11px 40px;
+  }
+
+  .contacts_email {
+    margin-bottom: 41px;
+    margin-left: 13px;
+  }
+
+  .contacts_phone {
+    margin-left: 18px;
+  }
+
+  .footer__locations h3 {
+    margin: 0 15px 40px;
+  }
+
+  .locations_address {
+    margin-bottom: 40px;
+  }
+
+  .footer_img {
+    width: 86.7%;
+  }
+}
