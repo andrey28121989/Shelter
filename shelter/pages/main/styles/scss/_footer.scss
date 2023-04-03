@@ -40,13 +40,19 @@
   color: #F1CDB3;
 }
 
-.footer__contacts h3 {
+.footer__contacts {
   width: 279px;
+}
+
+.footer__locations {
+  width: 301px;
+}
+
+.footer__contacts h3 {
   margin: 16px 0 40px;
 }
 
 .footer__locations h3 {
-  width: 301px;
   margin: 16px 0 34px;
 }
 
@@ -136,7 +142,11 @@
     text-align: center;
   }
 
+  .footer__locations {
+    width: 301px;
+  }
   .footer__contacts {
+    width: 279px;
     margin: 0 11px 40px;
   }
 
@@ -150,6 +160,7 @@
   }
 
   .footer__locations h3 {
+    width: 270px;
     margin: 0 15px 40px;
   }
 
