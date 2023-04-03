@@ -440,13 +440,19 @@ button:disabled, button[disabled] {
   color: #F1CDB3;
 }
 
-.footer__contacts h3 {
+.footer__contacts {
   width: 279px;
+}
+
+.footer__contacts h3 {
   margin: 16px 0 40px;
 }
 
+.footer__locations {
+  width: 300px;
+}
+
 .footer__locations h3 {
-  width: 301px;
   margin: 16px 0 31px;
 }
 
