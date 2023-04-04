@@ -192,7 +192,7 @@ p {
     display: block;
     border: none;
     background-color: transparent;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .burger .line {
     border-top: 2px solid #F1CDB3;
@@ -400,7 +400,7 @@ p {
     width: 260px;
   }
   .about__info p {
-    margin: 25px 15px 22px;
+    margin: 23px 15px 22px;
     text-align: justify;
   }
   .about__img {
@@ -651,7 +651,7 @@ p {
   .help__shelter {
     margin: 42px auto 12px auto;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     column-gap: 0px;
     row-gap: 0px;
   }
