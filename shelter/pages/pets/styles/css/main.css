@@ -298,6 +298,13 @@ button:disabled, button[disabled] {
 .pets__button_min {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #CDCDCD;
+  text-align: center;
   width: 52px;
   height: 52px;
   margin: 0 20px;
@@ -306,6 +313,13 @@ button:disabled, button[disabled] {
 .pets__button_left {
   border: 2px solid #CDCDCD;
   border-radius: 100px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #CDCDCD;
+  text-align: center;
   width: 52px;
   height: 52px;
 }
@@ -314,6 +328,12 @@ button:disabled, button[disabled] {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
   background: #F1CDB3;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #292929;
   width: 52px;
   height: 52px;
   margin: 0 20px;
@@ -326,7 +346,13 @@ button:disabled, button[disabled] {
 .pets__button_rigth {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
-  transform: rotate(180deg);
+  background: #F6F6F6;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #292929;
   width: 52px;
   height: 52px;
 }
@@ -339,7 +365,14 @@ button:disabled, button[disabled] {
 .pets__button_max {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
-  transform: rotate(180deg);
+  background: #F6F6F6;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #292929;
+  text-align: center;
   width: 52px;
   height: 52px;
   margin: 0 20px;
