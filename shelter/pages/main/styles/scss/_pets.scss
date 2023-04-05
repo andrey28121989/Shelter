@@ -177,6 +177,8 @@
     width: 270px;
     flex-wrap: wrap;
     align-items: center;
+    column-gap: 0px;
+    row-gap: 16px;
   }
 
   .pets__cards_item {
