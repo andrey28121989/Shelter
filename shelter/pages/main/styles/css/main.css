@@ -193,22 +193,85 @@ p {
     border: none;
     background-color: transparent;
     margin-top: 20px;
+    transition: 0.3s all linear;
+    z-index: 4;
   }
   .burger .line {
     border-top: 2px solid #F1CDB3;
     width: 30px;
     margin-bottom: 9px;
+    transition: 0.3s all linear;
+  }
+  .burger.opened .line_first {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 87%;
+    top: 50%;
+  }
+  .burger.opened .line_second {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 50%;
+    left: 84%;
+  }
+  .burger.opened .line_third {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    left: 81%;
   }
   .menu {
-    display: none;
+    position: absolute;
+    top: 0;
+    right: -100%;
+  }
+  .menu.active {
+    top: 0;
+    right: 0;
+    height: 823px;
+    width: 320px;
+    background: #292929;
+    transition: all 0.3s;
+    z-index: 1;
+    text-align: center;
+    transition: 0.3s all;
   }
   .menu .menu__list {
     flex-direction: column;
+  }
+  .menu__list {
+    margin-top: 248px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-align: center;
   }
   .logo__title h1 {
     width: 186px;
     height: 35px;
     letter-spacing: 0.06em;
+  }
+  .menu__link {
+    margin-left: 0;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+  }
+  .menu__item {
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .menu__item a {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    margin-bottom: 40px;
   }
 }
 .start__screen {
