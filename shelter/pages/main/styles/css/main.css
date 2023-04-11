@@ -193,28 +193,28 @@ p {
     border: none;
     background-color: transparent;
     margin-top: 20px;
-    transition: 0.3s all linear;
+    transition: 0.5s all linear;
     z-index: 4;
   }
   .burger .line {
     border-top: 2px solid #F1CDB3;
     width: 30px;
     margin-bottom: 9px;
-    transition: 0.3s all linear;
+    transition: 0.5s all linear;
   }
-  .burger.opened .line_first {
+  .burger.active .line_first {
     transform: rotate(-90deg);
     position: absolute;
     left: 87%;
     top: 50%;
   }
-  .burger.opened .line_second {
+  .burger.active .line_second {
     position: absolute;
     transform: rotate(-90deg);
     top: 50%;
     left: 84%;
   }
-  .burger.opened .line_third {
+  .burger.active .line_third {
     transform: rotate(-90deg);
     position: absolute;
     top: 50%;
@@ -224,17 +224,17 @@ p {
     position: absolute;
     top: 0;
     right: -100%;
+    transition: 0.5s;
   }
   .menu.active {
     top: 0;
     right: 0;
-    height: 823px;
+    height: 4823px;
     width: 320px;
     background: #292929;
-    transition: all 0.3s;
+    transition: all 0.5s;
     z-index: 1;
     text-align: center;
-    transition: 0.3s all;
   }
   .menu .menu__list {
     flex-direction: column;
