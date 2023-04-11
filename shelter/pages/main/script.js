@@ -89,23 +89,36 @@ let pets = [
   }
 ]
 
-// бургер на мобилке
+//-----бургер на мобилке----//
 
 document.addEventListener('DOMContentLoaded', ()=> {
   const burger = document.querySelector('.burger');
   const navigation = document.querySelector('.menu');
   const menuLink = document.querySelector('.menu__link');
-  const menuActive = document.querySelector('.menu.active');
+  const body = document.querySelector('body');
+  const menuLinkHelp = document.querySelector('.menu__link_help');
+  const menuLinkContacts = document.querySelector('.menu__link_contacts');
 
   burger.addEventListener('click', ()=> {
       navigation.classList.toggle('active');
-      burger.classList.toggle('opened');
+      burger.classList.toggle('active');
+      body.classList.toggle('_lock');
+      menuLink.classList.toggle('_change');
   })  
 
-  menuLink.addEventListener('click', ()=> {
-      
-      navigation.classList.toggle('closed');
-
+  menuLinkHelp.addEventListener('click', ()=> {
+      body.classList.remove('_lock');
+      navigation.classList.remove('active');
+      burger.classList.remove('active');
+      menuLink.classList.remove('_change');
   })
 
+  menuLinkContacts.addEventListener('click', ()=> {
+    body.classList.remove('_lock');
+    navigation.classList.remove('active');
+    burger.classList.remove('active');
+    menuLink.classList.remove('_change');
 })
+})
+
+//-----слайдер-карусель-----//
