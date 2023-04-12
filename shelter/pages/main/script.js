@@ -96,6 +96,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
   const navigation = document.querySelector('.menu');
   const menuLink = document.querySelector('.menu__link');
   const body = document.querySelector('body');
+  const darkTheme = document.querySelector('.dark__theme');
   const menuLinkHelp = document.querySelector('.menu__link_help');
   const menuLinkContacts = document.querySelector('.menu__link_contacts');
 
@@ -103,21 +104,21 @@ document.addEventListener('DOMContentLoaded', ()=> {
       navigation.classList.toggle('active');
       burger.classList.toggle('active');
       body.classList.toggle('_lock');
-      menuLink.classList.toggle('_change');
+      darkTheme.classList.toggle('_change')
   })  
 
   menuLinkHelp.addEventListener('click', ()=> {
       body.classList.remove('_lock');
       navigation.classList.remove('active');
       burger.classList.remove('active');
-      menuLink.classList.remove('_change');
+      darkTheme.classList.remove('_change')
   })
 
   menuLinkContacts.addEventListener('click', ()=> {
     body.classList.remove('_lock');
     navigation.classList.remove('active');
     burger.classList.remove('active');
-    menuLink.classList.remove('_change');
+    darkTheme.classList.remove('_change');
 })
 })
 
