@@ -94,7 +94,6 @@ let pets = [
 document.addEventListener('DOMContentLoaded', ()=> {
   const burger = document.querySelector('.burger');
   const navigation = document.querySelector('.menu');
-  const menuLink = document.querySelector('.menu__link');
   const body = document.querySelector('body');
   const darkTheme = document.querySelector('.dark__theme');
   const menuLinkHelp = document.querySelector('.menu__link_help');

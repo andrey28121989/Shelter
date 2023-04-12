@@ -1,6 +1,3 @@
-body {
-  // overflow: hidden ;
-}
 .header {
   background: transparent;
 }
@@ -53,10 +50,6 @@ body {
   line-height: 15px;
   color: #FFFFFF;
   letter-spacing: 0.095em;
-}
-
-.burger {
-  display: none;
 }
 
 .menu__list {
@@ -124,7 +117,6 @@ body {
     margin-top: 20px;
     transition: .5s all linear;
     z-index: 150;
-    opacity: 1;
   }
 
   .burger .line {
@@ -140,7 +132,6 @@ body {
     transform: rotate(-90deg);
     top: 20%;
     left: 88%;
-    opacity: 1;
   }
 
   .menu {
@@ -158,7 +149,6 @@ body {
     background: #292929;
     transition: all 0.5s;
     text-align: center;
-    opacity: 1;
     overflow: visible;
     display: block;
     position: fixed;
@@ -179,7 +169,6 @@ body {
     width: 100%;
     height: 100%;
     overflow: auto;
-    // z-index: 100;
   }
 
   .dark__theme._change {
@@ -225,8 +214,4 @@ body {
     margin-bottom: 40px;
   }
 
-
-  
-
-  
 }

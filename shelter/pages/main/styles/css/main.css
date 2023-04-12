@@ -139,10 +139,6 @@ p {
   letter-spacing: 0.095em;
 }
 
-.burger {
-  display: none;
-}
-
 .menu__list {
   display: flex;
 }
@@ -198,7 +194,6 @@ p {
     margin-top: 20px;
     transition: 0.5s all linear;
     z-index: 150;
-    opacity: 1;
   }
   .burger .line {
     border-top: 2px solid #F1CDB3;
@@ -212,7 +207,6 @@ p {
     transform: rotate(-90deg);
     top: 20%;
     left: 88%;
-    opacity: 1;
   }
   .menu {
     position: absolute;
@@ -228,7 +222,6 @@ p {
     background: #292929;
     transition: all 0.5s;
     text-align: center;
-    opacity: 1;
     overflow: visible;
     display: block;
     position: fixed;
