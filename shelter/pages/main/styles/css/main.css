@@ -209,7 +209,7 @@ p {
     left: 88%;
   }
   .menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -100%;
     transition: 0.5s;
@@ -501,11 +501,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
-}
-
-.two {
-  margin: 0 40px 0 40px;
 }
 
 .pets__button_left {
@@ -513,6 +508,7 @@ p {
   border-radius: 100px;
   background: url("../../../../assets/icons/arrow.svg") 50% no-repeat;
   padding: 26px;
+  margin-right: 53px;
 }
 
 .pets__button_left:hover {
@@ -520,15 +516,16 @@ p {
   transition: 0.5s;
 }
 
-.pets__button_rigth {
+.pets__button_right {
   border: 2px solid #F1CDB3;
   border-radius: 100px;
   background: url("../../../../assets/icons/arrow.svg") 50% no-repeat;
   transform: rotate(180deg);
   padding: 26px;
+  margin-left: 53px;
 }
 
-.pets__button_rigth:hover {
+.pets__button_right:hover {
   background-color: #FDDCC4;
   transition: 0.5s;
 }
@@ -536,7 +533,6 @@ p {
 .pets__cards_item {
   width: 270px;
   height: 435px;
-  gap: 90px;
   background: #FAFAFA;
   border-radius: 9px;
   transition: 0.6s;
@@ -607,16 +603,21 @@ p {
   .container_pets {
     padding: 80px 30px 117px;
   }
-  .three {
+  #three {
     display: none;
-  }
-  .two {
-    margin: 0 0 0 28px;
   }
   .cards__button a {
     margin-left: 224px;
   }
 }
+.pets__button_left {
+  margin-right: 12px;
+}
+
+.pets__button_right {
+  margin-left: 12px;
+}
+
 @media screen and (max-width: 767px) {
   .container_pets {
     padding: 42px 10px 57px;
@@ -632,16 +633,15 @@ p {
     column-gap: 0px;
     row-gap: 16px;
   }
-  .pets__cards_item {
-    order: -1;
-  }
   .pets__button_left {
     margin: 0 auto;
+    order: 2;
   }
-  .pets__button_rigth {
+  .pets__button_right {
     margin: 0 auto;
+    order: 3;
   }
-  .two {
+  #two {
     display: none;
   }
   .cards__button a {
@@ -1020,5 +1020,120 @@ p {
   }
   .footer_img {
     width: 86.7%;
+  }
+}
+.move__right {
+  animation-name: right_animation;
+  animation-duration: 1s;
+}
+
+.move__left {
+  animation-name: left_animation;
+  animation-duration: 1s;
+}
+
+.slider__wrapper {
+  width: 990px;
+  overflow: hidden;
+}
+
+.pets__cards_row {
+  display: flex;
+  position: relative;
+  left: -991px;
+}
+
+.cards__left {
+  display: flex;
+  gap: 90px;
+}
+
+.cards__center {
+  display: flex;
+  gap: 90px;
+}
+
+.cards__right {
+  display: flex;
+  gap: 90px;
+}
+
+@keyframes left_animation {
+  from {
+    left: -990px;
+  }
+  to {
+    left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  @keyframes left_animation {
+    from {
+      left: -580px;
+    }
+    to {
+      left: 0;
+    }
+  }
+}
+@media (max-width: 767px) {
+  @keyframes left_animation {
+    from {
+      left: -270px;
+    }
+    to {
+      left: 0;
+    }
+  }
+}
+@keyframes right_animation {
+  from {
+    left: -990px;
+  }
+  to {
+    left: -1980px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  @keyframes right_animation {
+    from {
+      left: -580px;
+    }
+    to {
+      left: -1160px;
+    }
+  }
+  .slider__wrapper {
+    width: 580px;
+  }
+  .pets__cards_row {
+    left: -580px;
+  }
+  .cards__left,
+  .cards__center,
+  .cards__right {
+    gap: 20px;
+    width: 580px;
+  }
+}
+@media screen and (max-width: 767px) {
+  @keyframes right_animation {
+    from {
+      left: -270px;
+    }
+    to {
+      left: -540px;
+    }
+  }
+  .slider__wrapper {
+    width: 270px;
+  }
+  .pets__cards_row {
+    left: -270px;
+  }
+  .cards__left,
+  .cards__center,
+  .cards__right {
+    width: 270px;
   }
 }
