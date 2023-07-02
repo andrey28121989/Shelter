@@ -1,0 +1,137 @@
+
+.move__right {
+  animation-name: right_animation;
+  animation-duration: 1s
+}
+
+.move__left {
+  animation-name: left_animation;
+  animation-duration: 1s;
+}
+
+
+.slider__wrapper {
+  width: 990px;
+  overflow: hidden;
+}
+
+.pets__cards_row {
+  display: flex;
+  position: relative;
+  left: -991px;
+}
+
+.cards__left {
+  display: flex;
+  gap: 90px;
+}
+
+.cards__center {
+  display: flex;
+  gap: 90px;
+}
+
+.cards__right {
+  display: flex;
+  gap: 90px;
+}
+
+@keyframes left_animation {
+  from {
+      left: -990px
+  }
+
+  to {
+      left: 0
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  @keyframes left_animation {
+      from {
+          left:-580px
+      }
+
+      to {
+          left: 0
+      }
+  }
+}
+
+@media (max-width: 767px) {
+  @keyframes left_animation {
+      from {
+          left:-270px
+      }
+
+      to {
+          left: 0
+      }
+  }
+}
+
+@keyframes right_animation {
+  from {
+      left: -990px
+  }
+
+  to {
+      left: -1980px
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  @keyframes right_animation {
+      from {
+          left:-580px
+      }
+
+      to {
+          left: -1160px
+      }
+  }
+
+  .slider__wrapper {
+    width: 580px;
+  }
+
+  .pets__cards_row {
+    left: -580px;
+  }
+
+  .cards__left,
+  .cards__center,
+  .cards__right {
+    gap: 20px;
+    width: 580px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  @keyframes right_animation {
+      from {
+          left:-270px
+      }
+
+      to {
+          left: -540px
+      }
+  }
+
+  .slider__wrapper {
+    width: 270px;
+  }
+
+  .pets__cards_row {
+    left: -270px;
+  }
+
+  .cards__left,
+  .cards__center,
+  .cards__right {
+    width: 270px;
+  }
+}
+
+
+
